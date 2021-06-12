@@ -193,6 +193,42 @@ a {
 	color: white;
 }
 
+.btn-title-block {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Title-Block span {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;	
+	justify-content: center;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/nazad.png);
+    width: 1rem;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/vpered.png");
+    width: 1rem;
+}
+
+.rate-block {
+	height: 7rem;
+}
+
+#more {
+	display: none;
+}
+
+.rate-title {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
 footer {
 	background-color: #09d271;
 	width: 100%;
@@ -213,3 +249,4 @@ footer {
 .social {
 	margin-left: 10px;
 }
+
